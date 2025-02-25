@@ -1,0 +1,38 @@
+.navbar {
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fafafa;
+    padding: 1rem 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+              inset 0 -3px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header {
+    flex: 1;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.right-bar {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.post {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+}
